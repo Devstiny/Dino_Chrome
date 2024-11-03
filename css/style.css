@@ -1,0 +1,25 @@
+@keyframes slideright {
+  from {
+    background-position: 20000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  background-image: url("./../assets/banner-1544x500.png");
+  height: 267px;
+  width: 100%;
+  animation: slideright 600s infinite linear;
+}
+
+.dinosaur {
+  background-image: url("./../assets/dinotamano.png");
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 0px;
+  background-repeat: no-repeat;
+}
