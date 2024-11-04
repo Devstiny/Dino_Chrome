@@ -13,6 +13,7 @@
   height: 267px;
   width: 100%;
   animation: slideright 600s infinite linear;
+  /* bottom: 0 ; */
 }
 
 .dinosaur {
@@ -22,4 +23,8 @@
   position: absolute;
   bottom: 0px;
   background-repeat: no-repeat;
+}
+
+html {
+  overflow: hidden;
 }
