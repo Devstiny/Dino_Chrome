@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 @keyframes slideright {
   from {
     background-position: 20000%;
@@ -25,6 +29,41 @@
   background-repeat: no-repeat;
 }
 
-html {
-  overflow: hidden;
+.cactus {
+  background-image: url(./../assets/f2_1.png);
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.score {
+  font-family: "Pixelify Sans";
+  color: #535353;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.restart {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  transition: transform 1s ease;
+}
+
+.restart:hover {
+  transform: scale(1.2) translate(-30px, -30px);
 }
