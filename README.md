@@ -1,6 +1,6 @@
 # 🦖 Dino Chrome Game
 
-![Dino Game Banner](https://upload.wikimedia.org/wikipedia/commons/1/1c/Dino_Chrome_Icon.png)
+![Dino Game Banner]([https://upload.wikimedia.org/wikipedia/commons/1/1c/Dino_Chrome_Icon.png](https://upload.wikimedia.org/wikipedia/commons/2/2a/Dino_gameover.png))
 
 ## 🌟 Sobre el Proyecto
 Este es un proyecto sencillo desarrollado en **JavaScript nativo**, inspirado en el clásico "Dino Chrome" de Google. El juego tiene como objetivo esquivar obstáculos mientras el dinosaurio corre, acumulando puntos a medida que sobrevives más tiempo.
